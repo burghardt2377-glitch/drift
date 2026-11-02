@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drift — files between iPhone, Android, Mac and Windows</title>
+  <meta name="description" content="Send photos, videos, files and links between iPhone, Android, Mac and Windows over Wi‑Fi. No account, no cloud, no cables." />
+  <meta name="theme-color" content="#E8D5C0" />
+  <meta property="og:title" content="Drift — files between iPhone, Android, Mac and Windows" />
+  <meta property="og:description" content="No account, no cloud, no cables. Just a code." />
+  <meta property="og:image" content="assets/img/icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Drift">
+      <img src="assets/img/icon.png" alt="" width="40" height="40" />
+      <span>Drift</span>
+    </a>
+    <nav class="links" aria-label="Sections">
+      <a href="#features" data-i18n="navFeatures"></a>
+      <a href="#how" data-i18n="navHow"></a>
+      <a href="#screens" data-i18n="navScreens"></a>
+      <a href="#privacy" data-i18n="navPrivacy"></a>
+    </nav>
+    <div class="right">
+      <div class="lang" id="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button><button type="button" data-lang="ru">RU</button>
+      </div>
+      <a class="btn small primary" href="#download" data-i18n="navDownload"></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow"></p>
+        <h1 data-i18n="heroTitle"></h1>
+        <p class="lead" data-i18n="heroLead"></p>
+        <div class="cta">
+          <a class="btn primary" href="#download" data-i18n="ctaDownload"></a>
+          <a class="btn glass" href="#how" data-i18n="ctaHow"></a>
+        </div>
+        <ul class="pills">
+          <li data-i18n="pillIphone"></li><li data-i18n="pillAndroid"></li><li data-i18n="pillMac"></li><li data-i18n="pillWindows"></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <svg class="orb" viewBox="0 0 500 500" aria-hidden="true">
+          <defs>
+            <filter id="goo" x="-30%" y="-30%" width="160%" height="160%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="18"/>
+              <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 24 -10"/>
+            </filter>
+          </defs>
+          <g filter="url(#goo)" fill="var(--accent)">
+            <circle id="o-core" cx="250" cy="250" r="150"/>
+            <circle class="o-sat" r="40"/><circle class="o-sat" r="30"/><circle class="o-sat" r="24"/><circle class="o-sat" r="18"/>
+          </g>
+        </svg>
+        <div class="phone" id="heroPhone">
+          <div class="phone-screen"><div class="demo" data-scene=""></div></div>
+        </div>
+        <span class="chip c1" data-i18n="chipPhotos"></span>
+        <span class="chip c2" data-i18n="chipFiles"></span>
+        <span class="chip c3" data-i18n="chipLinks"></span>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="head reveal">
+        <h2 data-i18n="featTitle"></h2>
+        <p data-i18n="featLead"></p>
+      </div>
+      <div class="grid">
+        <article class="card reveal"><span class="ic" data-icon="file"></span><h3 data-i18n="f1t"></h3><p data-i18n="f1d"></p></article>
+        <article class="card reveal"><span class="ic" data-icon="link"></span><h3 data-i18n="f2t"></h3><p data-i18n="f2d"></p></article>
+        <article class="card reveal"><span class="ic" data-icon="qr"></span><h3 data-i18n="f3t"></h3><p data-i18n="f3d"></p></article>
+        <article class="card reveal"><span class="ic" data-icon="shield"></span><h3 data-i18n="f4t"></h3><p data-i18n="f4d"></p></article>
+        <article class="card reveal"><span class="ic" data-icon="history"></span><h3 data-i18n="f5t"></h3><p data-i18n="f5d"></p></article>
+        <article class="card reveal"><span class="ic" data-icon="swap"></span><h3 data-i18n="f6t"></h3><p data-i18n="f6d"></p></article>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how">
+      <div class="head reveal">
+        <h2 data-i18n="howTitle"></h2>
+        <p data-i18n="howLead"></p>
+      </div>
+      <div class="steps">
+        <article class="step reveal">
+          <div class="phoneframe"><div class="demo" data-scene="host"></div></div>
+          <span class="num">1</span><h3 data-i18n="s1t"></h3><p data-i18n="s1d"></p>
+        </article>
+        <article class="step reveal">
+          <div class="phoneframe"><div class="demo" data-scene="join"></div></div>
+          <span class="num">2</span><h3 data-i18n="s2t"></h3><p data-i18n="s2d"></p>
+        </article>
+        <article class="step reveal">
+          <div class="phoneframe"><div class="demo" data-scene="connected"></div></div>
+          <span class="num">3</span><h3 data-i18n="s3t"></h3><p data-i18n="s3d"></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SCREENS -->
+    <section class="section" id="screens">
+      <div class="head reveal">
+        <h2 data-i18n="scrTitle"></h2>
+        <p data-i18n="scrLead"></p>
+      </div>
+      <div class="gallery">
+        <figure class="reveal"><div class="phoneframe"><div class="demo" data-scene="home"></div></div><figcaption data-i18n="capHome"></figcaption></figure>
+        <figure class="reveal"><div class="phoneframe"><div class="demo" data-scene="host"></div></div><figcaption data-i18n="capCode"></figcaption></figure>
+        <figure class="reveal"><div class="phoneframe"><div class="demo" data-scene="connected"></div></div><figcaption data-i18n="capSend"></figcaption></figure>
+        <figure class="reveal"><div class="phoneframe"><div class="demo" data-scene="history"></div></div><figcaption data-i18n="capHistory"></figcaption></figure>
+      </div>
+      <div class="gallery desk-row">
+        <figure class="frame desk reveal"><img src="assets/img/mac-home.webp" alt="" loading="lazy" /><figcaption data-i18n="capMac"></figcaption></figure>
+        <figure class="frame desk reveal"><img src="assets/img/mac-code.webp" alt="" loading="lazy" /><figcaption data-i18n="capCode"></figcaption></figure>
+        <figure class="frame desk reveal"><img src="assets/img/mac-join.webp" alt="" loading="lazy" /><figcaption data-i18n="capJoin"></figcaption></figure>
+      </div>
+    </section>
+
+    <!-- PRIVACY -->
+    <section class="section" id="privacy">
+      <div class="privacy reveal">
+        <h2 data-i18n="privTitle"></h2>
+        <p class="lead" data-i18n="privLead"></p>
+        <ul class="ticks">
+          <li data-i18n="priv1"></li><li data-i18n="priv2"></li><li data-i18n="priv3"></li><li data-i18n="priv4"></li>
+        </ul>
+        <p class="note" data-i18n="privNote"></p>
+        <p class="note"><span data-i18n="privContact"></span> <a id="mail" href="#"></a></p>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="section" id="download">
+      <div class="head reveal">
+        <h2 data-i18n="dlTitle"></h2>
+        <p data-i18n="dlLead"></p>
+      </div>
+      <div class="downloads">
+        <a class="dl reveal" data-link="googlePlay"><span class="ic" data-icon="play"></span><b>Google Play</b><small data-i18n="dlAndroid"></small><em class="state"></em></a>
+        <a class="dl reveal" data-link="ruStore"><span class="ic" data-icon="play"></span><b>RuStore</b><small data-i18n="dlAndroid"></small><em class="state"></em></a>
+        <a class="dl reveal" data-link="macos"><span class="ic" data-icon="mac"></span><b>macOS</b><small data-i18n="dlMac"></small><em class="state"></em></a>
+        <a class="dl reveal" data-link="windows"><span class="ic" data-icon="win"></span><b>Windows</b><small data-i18n="dlWin"></small><em class="state"></em></a>
+        <a class="dl reveal" data-link="appStore"><span class="ic" data-icon="phone"></span><b>iPhone</b><small data-i18n="dlIos"></small><em class="state"></em></a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section narrow" id="faq">
+      <div class="head reveal"><h2 data-i18n="faqTitle"></h2></div>
+      <details class="reveal"><summary data-i18n="q1"></summary><p data-i18n="a1"></p></details>
+      <details class="reveal"><summary data-i18n="q2"></summary><p data-i18n="a2"></p></details>
+      <details class="reveal"><summary data-i18n="q3"></summary><p data-i18n="a3"></p></details>
+      <details class="reveal"><summary data-i18n="q4"></summary><p data-i18n="a4"></p></details>
+      <details class="reveal"><summary data-i18n="q5"></summary><p data-i18n="a5"></p></details>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="brand"><img src="assets/img/icon.png" alt="" width="32" height="32" /><span>Drift</span></div>
+    <p data-i18n="footTag"></p>
+    <p class="small">© <span id="year"></span> Drift</p>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
