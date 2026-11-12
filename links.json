@@ -3,7 +3,7 @@
   "macFile": "Drift-macOS-arm64.dmg",
   "windowsFile": "Drift-windows-x64.zip",
   "googlePlay": "",
-  "ruStore": "",
+  "ruStore": "https://www.rustore.ru/catalog/app/com.drift.transfer",
   "appStore": "",
   "privacyEmail": "hello@example.com"
 }
